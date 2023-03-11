@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/scientific-formulas-on-chalkboard_23-2148494010.avif);
+
+}
+
+.calculator {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+.calc__display {
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: end;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+
+}
+
+.keyboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.key {
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+#min {
+    font-weight: 900;
+    font-family: 'Fragment Mono', monospace;
+}
+
+.key-result {
+    width: 100%;
+    background-color: crimson;
+    margin-top: 20px;
+    box-shadow: inset 5px 5px 5px rgba(255, 255, 255, 0.5);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
